@@ -5366,3 +5366,95 @@ LogConfig: Set CVar [[r.VRS.ContrastAdaptiveShading:1]]
 [2025.11.13-14.14.51:124][483]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 18028.119141
 [2025.11.13-14.15.17:757][564]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
 [2025.11.13-14.15.17:766][564]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 18054.435547, Update Interval: 302.618500
+[2025.11.13-14.18.19:840][336]LogEditorTransaction: Undo Drag and Drop Widget
+[2025.11.13-14.18.20:780][337]LogEditorTransaction: Undo Remove Widget
+[2025.11.13-14.18.21:413][369]LogEditorTransaction: Undo Drag and Drop Widget
+[2025.11.13-14.18.22:243][417]LogEditorTransaction: Undo Drag and Drop Widget
+[2025.11.13-14.18.23:205][473]LogEditorTransaction: Undo Change Class Pin Value
+[2025.11.13-14.18.24:638][540]LogEditorTransaction: Undo Move Node
+[2025.11.13-14.18.27:023][658]LogEditorTransaction: Undo Create Pin Link
+[2025.11.13-14.18.27:694][697]LogEditorTransaction: Undo Move Node
+[2025.11.13-14.19.48:651][487]LogUObjectHash: Compacting FUObjectHashTables data took  32.79ms
+[2025.11.13-14.21.00:177][545]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 18397.158203
+[2025.11.13-14.21.00:749][560]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.11.13-14.21.00:750][560]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 18397.730469, Update Interval: 341.135895
+[2025.11.13-14.23.12:694][868]LogUObjectHash: Compacting FUObjectHashTables data took  50.94ms
+[2025.11.13-14.23.13:124][868]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/ThirdPerson/Lvl_ThirdPerson_Auto2
+[2025.11.13-14.23.13:124][868]LogSavePackage: Moving '../../../../../../Users/Student/Documents/GitHub/UR-Maze_M/Maze_Maw/Saved/Lvl_ThirdPerson_Auto2115531A54FA0B0094E8FB78F08E0DFFA.tmp' to '../../../../../../Users/Student/Documents/GitHub/UR-Maze_M/Maze_Maw/Saved/Autosaves/Game/ThirdPerson/Lvl_ThirdPerson_Auto2.umap'
+[2025.11.13-14.23.13:196][868]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/ThirdPerson/Lvl_ThirdPerson' took 1.628
+[2025.11.13-14.23.13:196][868]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 1.628
+[2025.11.13-14.23.13:204][868]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/GUI/WBP_ScreenText] ([2] browsable assets)...
+[2025.11.13-14.23.13:287][868]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/GUI/WBP_ScreenText.WBP_ScreenText]
+[2025.11.13-14.23.13:287][868]OBJ SavePackage: Finished generating thumbnails for package [/Game/GUI/WBP_ScreenText]
+[2025.11.13-14.23.13:345][868]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/GUI/WBP_ScreenText_Auto2
+[2025.11.13-14.23.13:346][868]LogSavePackage: Moving '../../../../../../Users/Student/Documents/GitHub/UR-Maze_M/Maze_Maw/Saved/WBP_ScreenText_Auto28887D3624395911E36FFCDAF576F91AB.tmp' to '../../../../../../Users/Student/Documents/GitHub/UR-Maze_M/Maze_Maw/Saved/Autosaves/Game/GUI/WBP_ScreenText_Auto2.uasset'
+[2025.11.13-14.23.13:348][868]LogFileHelpers: Auto-saving content packages took 0.151
+[2025.11.13-14.25.08:162][200]LogEditorTransaction: Undo Drag and Drop Widget
+[2025.11.13-14.26.28:444][960]LogDerivedDataCache: C:/Users/Student/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.010 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
+[2025.11.13-14.26.31:514][985]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.11.13-14.26.33:057][985]LogUObjectHash: Compacting FUObjectHashTables data took  62.93ms
+[2025.11.13-14.26.33:195][985]LogUObjectHash: Compacting FUObjectHashTables data took   6.15ms
+[2025.11.13-14.26.33:263][985]LogUObjectHash: Compacting FUObjectHashTables data took   1.40ms
+[2025.11.13-14.26.33:558][985]LogUObjectHash: Compacting FUObjectHashTables data took   1.39ms
+[2025.11.13-14.26.33:788][985]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Lvl_ThirdPerson
+[2025.11.13-14.26.33:793][985]LogSavePackage: Moving '../../../../../../Users/Student/Documents/GitHub/UR-Maze_M/Maze_Maw/Saved/Lvl_ThirdPersonAF1A9EF043FEFE1D2876099339372F15.tmp' to '../../../../../../Users/Student/Documents/GitHub/UR-Maze_M/Maze_Maw/Content/ThirdPerson/Lvl_ThirdPerson.umap'
+[2025.11.13-14.26.33:930][985]LogFileHelpers: Saving map 'Lvl_ThirdPerson' took 0.662
+[2025.11.13-14.26.33:952][985]LogFileHelpers: InternalPromptForCheckoutAndSave took 2.43 sec (total: 16.3 sec)
+[2025.11.13-14.26.34:092][985]LogContentValidation: Display: Starting to validate 1 assets
+[2025.11.13-14.26.34:092][985]LogContentValidation: Enabled validators:
+[2025.11.13-14.26.34:093][985]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.11.13-14.26.34:094][985]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.11.13-14.26.34:094][985]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.11.13-14.26.34:094][985]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.11.13-14.26.34:094][985]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.11.13-14.26.34:094][985]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.11.13-14.26.34:105][985]AssetCheck: /Game/ThirdPerson/Lvl_ThirdPerson Validating asset
+[2025.11.13-14.26.37:072][ 33]LogBlueprint: Error: [AssetLog] C:\Users\Student\Documents\GitHub\UR-Maze_M\Maze_Maw\Content\ThirdPerson\Lvl_ThirdPerson.umap: [Compiler] Spawn node  Create Widget  must have a class specified.
+[2025.11.13-14.26.37:509][ 33]LogUObjectHash: Compacting FUObjectHashTables data took   6.66ms
+[2025.11.13-14.26.51:164][733]LogBlueprint: Error: [AssetLog] C:\Users\Student\Documents\GitHub\UR-Maze_M\Maze_Maw\Content\ThirdPerson\Lvl_ThirdPerson.umap: [Compiler] This blueprint (self) is not a UserWidget, therefore ' Target ' must have a connection.
+[2025.11.13-14.26.51:353][733]LogUObjectHash: Compacting FUObjectHashTables data took   5.75ms
+[2025.11.13-14.26.53:870][867]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.11.13-14.26.53:977][867]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/GUI/WBP_ScreenText] ([2] browsable assets)...
+[2025.11.13-14.26.54:152][867]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/GUI/WBP_ScreenText.WBP_ScreenText]
+[2025.11.13-14.26.54:152][867]OBJ SavePackage: Finished generating thumbnails for package [/Game/GUI/WBP_ScreenText]
+[2025.11.13-14.26.54:152][867]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GUI/WBP_ScreenText" FILE="../../../../../../Users/Student/Documents/GitHub/UR-Maze_M/Maze_Maw/Content/GUI/WBP_ScreenText.uasset" SILENT=true
+[2025.11.13-14.26.54:222][867]LogSavePackage: Moving output files for package: /Game/GUI/WBP_ScreenText
+[2025.11.13-14.26.54:224][867]LogSavePackage: Moving '../../../../../../Users/Student/Documents/GitHub/UR-Maze_M/Maze_Maw/Saved/WBP_ScreenTextB8B4FD3244429020916632970D133CD4.tmp' to '../../../../../../Users/Student/Documents/GitHub/UR-Maze_M/Maze_Maw/Content/GUI/WBP_ScreenText.uasset'
+[2025.11.13-14.26.54:255][867]LogFileHelpers: InternalPromptForCheckoutAndSave took 384.954 ms (total: 16.6 sec)
+[2025.11.13-14.26.54:379][867]LogContentValidation: Display: Starting to validate 1 assets
+[2025.11.13-14.26.54:379][867]LogContentValidation: Enabled validators:
+[2025.11.13-14.26.54:379][867]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.11.13-14.26.54:379][867]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.11.13-14.26.54:379][867]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.11.13-14.26.54:379][867]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.11.13-14.26.54:379][867]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.11.13-14.26.54:379][867]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.11.13-14.26.54:380][867]AssetCheck: /Game/GUI/WBP_ScreenText Validating asset
+[2025.11.13-14.26.56:877][  9]LogBlueprint: Error: [AssetLog] C:\Users\Student\Documents\GitHub\UR-Maze_M\Maze_Maw\Content\ThirdPerson\Lvl_ThirdPerson.umap: [Compiler] This blueprint (self) is not a UserWidget, therefore ' Target ' must have a connection.
+[2025.11.13-14.26.56:998][  9]LogUObjectHash: Compacting FUObjectHashTables data took   5.57ms
+[2025.11.13-14.27.00:974][218]LogUObjectHash: Compacting FUObjectHashTables data took   3.71ms
+[2025.11.13-14.27.02:284][291]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.11.13-14.27.02:477][291]LogUObjectHash: Compacting FUObjectHashTables data took   2.95ms
+[2025.11.13-14.27.02:494][291]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Lvl_ThirdPerson
+[2025.11.13-14.27.02:496][291]LogSavePackage: Moving '../../../../../../Users/Student/Documents/GitHub/UR-Maze_M/Maze_Maw/Saved/Lvl_ThirdPersonF686BB4449F68E5FED5F1CB6AB1C203B.tmp' to '../../../../../../Users/Student/Documents/GitHub/UR-Maze_M/Maze_Maw/Content/ThirdPerson/Lvl_ThirdPerson.umap'
+[2025.11.13-14.27.02:511][291]LogFileHelpers: All files are already saved.
+[2025.11.13-14.27.02:513][291]LogFileHelpers: Saving map 'Lvl_ThirdPerson' took 0.126
+[2025.11.13-14.27.02:530][291]LogFileHelpers: InternalPromptForCheckoutAndSave took 246.976 ms (total: 16.9 sec)
+[2025.11.13-14.27.02:624][291]LogContentValidation: Display: Starting to validate 1 assets
+[2025.11.13-14.27.02:624][291]LogContentValidation: Enabled validators:
+[2025.11.13-14.27.02:624][291]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.11.13-14.27.02:624][291]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.11.13-14.27.02:624][291]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.11.13-14.27.02:624][291]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.11.13-14.27.02:625][291]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.11.13-14.27.02:625][291]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.11.13-14.27.02:625][291]AssetCheck: /Game/ThirdPerson/Lvl_ThirdPerson Validating asset
+[2025.11.13-14.27.41:729][102]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 18798.738281
+[2025.11.13-14.27.42:004][116]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.11.13-14.27.42:005][117]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 18799.007812, Update Interval: 333.205353
+[2025.11.13-14.28.53:680][995]LogBlueprint: Error: [AssetLog] C:\Users\Student\Documents\GitHub\UR-Maze_M\Maze_Maw\Content\GUI\WBP_ScreenText.uasset: [Compiler] The type of  Object  is undetermined.  Connect something to  Cast To BP_ThirdPersonCharacter  to imply a specific type.
+[2025.11.13-14.28.53:686][995]LogBlueprint: Error: [AssetLog] C:\Users\Student\Documents\GitHub\UR-Maze_M\Maze_Maw\Content\GUI\WBP_ScreenText.uasset: [Compiler] The current value of the ' Object ' pin is invalid: Unsupported type Object Wildcard on pin Object
+[2025.11.13-14.28.53:999][995]LogUObjectHash: Compacting FUObjectHashTables data took   6.84ms
+[2025.11.13-14.29.33:426][588]LogBlueprint: Warning: [AssetLog] C:\Users\Student\Documents\GitHub\UR-Maze_M\Maze_Maw\Content\GUI\WBP_ScreenText.uasset: [Compiler] 'BP Third Person Character' does not inherit from 'WBP Screen Text' ( Cast To BP_ThirdPersonCharacter  would always fail).
+[2025.11.13-14.29.33:566][588]LogUObjectHash: Compacting FUObjectHashTables data took   9.38ms
+[2025.11.13-14.29.43:279][ 61]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_16
