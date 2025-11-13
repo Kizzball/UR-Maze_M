@@ -6365,3 +6365,30 @@ LogConfig: Set CVar [[r.VRS.ContrastAdaptiveShading:1]]
 [2025.11.13-16.01.03:622][782]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 24399.994141
 [2025.11.13-16.01.04:619][784]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
 [2025.11.13-16.01.04:659][784]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 24400.662109, Update Interval: 322.394470
+[2025.11.13-16.07.10:682][ 56]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 24767.140625
+[2025.11.13-16.07.11:706][ 58]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.11.13-16.07.11:709][ 58]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 24767.806641, Update Interval: 318.437439
+[2025.11.13-16.13.13:779][145]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 25130.214844
+[2025.11.13-16.13.14:731][147]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.11.13-16.13.14:732][147]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 25130.923828, Update Interval: 339.954834
+[2025.11.13-16.19.37:156][295]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 25513.644531
+[2025.11.13-16.19.38:179][297]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.11.13-16.19.38:180][297]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 25514.310547, Update Interval: 359.855347
+[2025.11.13-16.26.26:233][522]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 25922.714844
+[2025.11.13-16.26.27:219][524]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.11.13-16.26.27:220][524]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 25923.380859, Update Interval: 344.181030
+[2025.11.13-16.26.28:468][528]LogDerivedDataCache: C:/Users/Student/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.010 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
+[2025.11.13-16.32.44:304][656]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 26300.818359
+[2025.11.13-16.32.45:328][658]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.11.13-16.32.45:329][658]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 26301.484375, Update Interval: 331.097748
+[2025.11.13-16.33.45:561][839]LogAudioMixer: Display: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=Speaker (Realtek(R) Audio), InstanceID=1
+[2025.11.13-16.33.45:563][839]LogAudioMixer: Display: Attempt to swap audio render device to new device: '{0.0.0.00000000}.{40818a40-9f0b-4b6d-a778-5c5333fe73dd}', because: 'FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged', force=1
+[2025.11.13-16.33.45:641][839]LogAudioMixer: Display: Ignoring device swap request, AudioStreamInfo.StreamState: 5
+[2025.11.13-16.33.45:642][839]LogAudioMixer: Display: NOT-ALLOWING attempt to swap audio render device to new device: '{0.0.0.00000000}.{40818a40-9f0b-4b6d-a778-5c5333fe73dd}', because: 'FMixerPlatformXAudio2::OnSessionDisconnect() - FormatChanged', force=1
+[2025.11.13-16.33.45:705][839]LogAudioMixer: Display: FMixerPlatformXAudio2::PreDeviceSwap - Starting swap to [{0.0.0.00000000}.{40818a40-9f0b-4b6d-a778-5c5333fe73dd}]
+[2025.11.13-16.33.45:706][839]LogAudioMixer: Display: FMixerPlatformXAudio2::EnqueueAsyncDeviceSwap - enqueuing async device swap
+[2025.11.13-16.33.45:709][839]LogAudioMixer: Display: FMixerPlatformXAudio2::PerformDeviceSwap - AsyncTask Start. Because=FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged
+[2025.11.13-16.33.47:076][843]LogAudioMixer: Display: FMixerPlatformXAudio2::PostDeviceSwap - successful Swap new Device is (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{40818a40-9f0b-4b6d-a778-5c5333fe73dd}, Name=Speaker (Realtek(R) Audio)), Reason=FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged, InstanceID=1, DurationMS=1187.57
+[2025.11.13-16.33.47:080][843]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=1
+[2025.11.13-16.33.47:080][843]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2025.11.13-16.33.47:094][843]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
