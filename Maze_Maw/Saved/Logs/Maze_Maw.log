@@ -3397,3 +3397,6 @@ Sampler Limit: 32
 [2025.11.17-11.50.15:449][671]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 5490.828613, Update Interval: 332.172607
 [2025.11.17-11.51.10:542][270]LogUdpMessaging: Warning: Waiting for ack too long. Re-sending 1 segments. Attempt 1 out of 16 tries.
 [2025.11.17-11.51.10:544][270]LogUdpMessaging: Warning: Waiting for ack too long. Re-sending 2 segments. Attempt 1 out of 16 tries.
+[2025.11.17-11.56.33:075][746]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 5868.427734
+[2025.11.17-11.56.34:074][748]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.11.17-11.56.34:074][748]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 5869.094238, Update Interval: 346.825165
