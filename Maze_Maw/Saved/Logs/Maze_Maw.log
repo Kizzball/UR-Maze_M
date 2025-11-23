@@ -1526,3 +1526,311 @@ LogConfig: Set CVar [[r.VRS.ContrastAdaptiveShading:1]]
 [2025.11.20-14.48.56:079][ 66]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 1063.701904
 [2025.11.20-14.48.57:079][ 69]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
 [2025.11.20-14.48.57:079][ 69]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 1064.367432, Update Interval: 333.478210
+[2025.11.20-14.52.48:539][750]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_0
+[2025.11.20-14.53.00:806][859]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2025.11.20-14.53.20:555][303]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2025.11.20-14.53.37:082][671]LogDebuggerCommands: Repeating last play command: New Editor Window (PIE)
+[2025.11.20-14.53.37:178][671]LogContentBundle: [Lvl_ThirdPerson(Editor)] Generating Streaming for 0 Content Bundles.
+[2025.11.20-14.53.37:179][671]LogWorldPartition: Display: GenerateStreaming for 'Lvl_ThirdPerson' started...
+[2025.11.20-14.53.37:301][671]LogWorldPartition: Display: GenerateStreaming for 'Lvl_ThirdPerson' took 122.100 ms
+[2025.11.20-14.53.37:339][671]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.11.20-14.53.37:394][671]LogPlayLevel: Display: Creating online subsystem for client :Context_2
+[2025.11.20-14.53.38:022][671]LogOnline: OSS: Created online subsystem instance for: :Context_2
+[2025.11.20-14.53.38:156][672]LogPlayLevel: Creating play world package: /Game/ThirdPerson/UEDPIE_0_Lvl_ThirdPerson
+[2025.11.20-14.53.38:412][672]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE started...
+[2025.11.20-14.53.38:423][672]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE took 11.960 ms
+[2025.11.20-14.53.38:430][672]LogPlayLevel: PIE: StaticDuplicateObject took: (0.267125s)
+[2025.11.20-14.53.38:430][672]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Lvl_ThirdPerson.Lvl_ThirdPerson to /Game/ThirdPerson/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson (0.274603s)
+[2025.11.20-14.53.40:226][672]LogUObjectHash: Compacting FUObjectHashTables data took  40.83ms
+[2025.11.20-14.53.40:273][672]LogChaosDD: Creating Chaos Debug Draw Scene for world Lvl_ThirdPerson
+[2025.11.20-14.53.40:403][672]LogWorldPartition: ULevel::OnLevelLoaded(Lvl_ThirdPerson)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.11.20-14.53.40:404][672]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.11.20-14.53.40:404][672]LogWorldPartition: UWorldPartition::Initialize : World = /Game/ThirdPerson/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.11.20-14.53.40:404][672]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.11.20-14.53.40:441][672]LogWorldPartition: Display: WorldPartition initialize took 37.005 ms (total: 711.477 ms)
+[2025.11.20-14.53.40:446][672]LogPlayLevel: PIE: World Init took: (0.175418s)
+[2025.11.20-14.53.40:453][672]LogAudio: Display: Creating Audio Device:                 Id: 2, Scope: Unique, Realtime: True
+[2025.11.20-14.53.40:457][672]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.11.20-14.53.40:457][672]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.11.20-14.53.40:457][672]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.11.20-14.53.40:457][672]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.11.20-14.53.40:457][672]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.11.20-14.53.40:457][672]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.11.20-14.53.40:457][672]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.11.20-14.53.40:458][672]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.11.20-14.53.40:466][672]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.11.20-14.53.40:466][672]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.11.20-14.53.40:466][672]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.11.20-14.53.40:480][672]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.11.20-14.53.40:993][672]LogAudioMixer: Display: Using Audio Hardware Device Headphone (Realtek(R) Audio)
+[2025.11.20-14.53.41:001][672]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.11.20-14.53.41:002][672]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.11.20-14.53.41:004][672]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.11.20-14.53.41:013][672]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=2
+[2025.11.20-14.53.41:013][672]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=2
+[2025.11.20-14.53.41:019][672]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=2
+[2025.11.20-14.53.41:019][672]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=2
+[2025.11.20-14.53.41:020][672]LogInit: FAudioDevice initialized with ID 2.
+[2025.11.20-14.53.41:020][672]LogAudio: Display: Audio Device (ID: 2) registered with world 'Lvl_ThirdPerson'.
+[2025.11.20-14.53.41:024][672]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 2
+[2025.11.20-14.53.41:234][672]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.11.20-14.53.41:252][672]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2025.11.20-14.53.41:359][672]LogWorld: Bringing World /Game/ThirdPerson/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson up for play (max tick rate 60) at 2025.11.20-14.53.41
+[2025.11.20-14.53.41:367][672]LogWorld: Bringing up level for play took: 0.099721
+[2025.11.20-14.53.42:069][672]PIE: Server logged in
+[2025.11.20-14.53.42:076][672]PIE: Play in editor total start time 4.915 seconds.
+[2025.11.20-14.53.42:330][673]LogCsvProfiler: Display: Metadata set : systemresolution.resx="3831"
+[2025.11.20-14.53.42:330][673]LogCsvProfiler: Display: Metadata set : systemresolution.resy="2028"
+[2025.11.20-14.53.45:762][738]LogBlueprintUserMessages: [BP_Coin_Points_C_UAID_4CD717924AB8FFA202_1732976477] 1
+[2025.11.20-14.53.45:773][738]LogBlueprintUserMessages: [BP_Coin_Points_C_UAID_4CD717924AB8FFA202_1732975475] 2
+[2025.11.20-14.53.45:898][742]LogBlueprintUserMessages: [BP_Coin_Points_C_UAID_4CD717924AB8FFA202_1732972473] 3
+[2025.11.20-14.53.45:929][743]LogBlueprintUserMessages: [BP_Coin_Points_C_UAID_4CD717924AB8FFA202_1732975476] 4
+[2025.11.20-14.53.45:995][745]LogBlueprintUserMessages: [BP_Coin_Points_C_UAID_4CD717924AB8FFA202_1732983483] 5
+[2025.11.20-14.53.46:027][746]LogBlueprintUserMessages: [BP_Coin_Points_C_UAID_60FF9EBA567BCAA102_1966387084] 6
+[2025.11.20-14.53.46:130][749]LogBlueprintUserMessages: [BP_Coin_Points_C_UAID_4CD717924AB8FFA202_1732979479] 7
+[2025.11.20-14.53.46:229][752]LogBlueprintUserMessages: [BP_Coin_Points_C_UAID_4CD717924AB8FFA202_1732982482] 8
+[2025.11.20-14.53.46:267][753]LogBlueprintUserMessages: [BP_Coin_Points_C_UAID_4CD717924AB8FFA202_1705182453] 9
+[2025.11.20-14.53.46:305][754]LogBlueprintUserMessages: [BP_Coin_Points_C_UAID_4CD717924AB8FFA202_1705179451] 10
+[2025.11.20-14.53.46:406][757]LogBlueprintUserMessages: [BP_Coin_Points_C_UAID_4CD717924AB8FFA202_1705175449] 11
+[2025.11.20-14.53.46:408][757]LogBlueprintUserMessages: [BP_Coin_Points_C_UAID_4CD717924AB8FFA202_1705180452] 12
+[2025.11.20-14.53.46:550][761]LogBlueprintUserMessages: [BP_Coin_Points_C_UAID_4CD717924AB8FFA202_1716669457] 13
+[2025.11.20-14.53.46:551][761]LogBlueprintUserMessages: [BP_Coin_Points_C_UAID_4CD717924AB8FFA202_1716671459] 14
+[2025.11.20-14.53.46:681][765]LogBlueprintUserMessages: [BP_Coin_Points_C_UAID_4CD717924AB8FFA202_1716663455] 15
+[2025.11.20-14.53.46:682][765]LogBlueprintUserMessages: [BP_Coin_Points_C_UAID_4CD717924AB8FFA202_1716670458] 16
+[2025.11.20-14.53.47:755][794]LogBlueprintUserMessages: [BP_Coin_Points_C_UAID_4CD717924AB8FFA202_1716673460] 17
+[2025.11.20-14.53.47:790][795]LogBlueprintUserMessages: [BP_Coin_Points_C_UAID_60FF9EBA567BCAA102_1783077072] 18
+[2025.11.20-14.53.47:836][796]LogBlueprintUserMessages: [BP_Coin_Points_C_UAID_4CD717924AB8FFA202_1716667456] 19
+[2025.11.20-14.53.47:929][799]LogBlueprintUserMessages: [BP_Coin_Points_C_UAID_4CD717924AB8FFA202_1705183454] 20
+[2025.11.20-14.53.48:073][803]LogBlueprintUserMessages: [BP_Coin_Points_C_UAID_60FF9EBA567BCAA102_1743271068] 21
+[2025.11.20-14.53.48:073][803]LogBlueprintUserMessages: [BP_Coin_Points_C_UAID_4CD717924AB8FFA202_1705178450] 22
+[2025.11.20-14.53.48:214][807]LogBlueprintUserMessages: [BP_Coin_Points_C_UAID_4CD717924AB8FFA202_1732984484] 23
+[2025.11.20-14.53.48:249][808]LogBlueprintUserMessages: [BP_Coin_Points_C_UAID_4CD717924AB8FFA202_1732991489] 24
+[2025.11.20-14.53.48:348][811]LogBlueprintUserMessages: [BP_Coin_Points_C_UAID_4CD717924AB8FFA202_1732980480] 25
+[2025.11.20-14.53.48:348][811]LogBlueprintUserMessages: [BP_Coin_Points_C_UAID_4CD717924AB8FFA202_1732988487] 26
+[2025.11.20-14.53.48:445][814]LogBlueprintUserMessages: [BP_Coin_Points_C_UAID_4CD717924AB8FFA202_1732977478] 27
+[2025.11.20-14.53.48:445][814]LogBlueprintUserMessages: [BP_Coin_Points_C_UAID_4CD717924AB8FFA202_1732965468] 28
+[2025.11.20-14.53.48:573][818]LogBlueprintUserMessages: [BP_Coin_Points_C_UAID_4CD717924AB8FFA202_1732973474] 29
+[2025.11.20-14.53.48:604][819]LogBlueprintUserMessages: [BP_Coin_Points_C_UAID_4CD717924AB8FFA202_1732969470] 30
+[2025.11.20-14.53.48:606][819]LogBlueprintUserMessages: [BP_Coin_Points_C_UAID_60FF9EBA567BCAA102_1966339079] 31
+[2025.11.20-14.53.49:295][840]LogBlueprintUserMessages: [BP_Coin_Points_C_UAID_60FF9EBA567BCAA102_1966346080] 32
+[2025.11.20-14.53.49:535][847]LogBlueprintUserMessages: [BP_Coin_Points_C_UAID_60FF9EBA567BCAA102_1966355081] 33
+[2025.11.20-14.53.49:776][852]LogBlueprintUserMessages: [BP_Coin_Points_C_UAID_4CD717924AB8FFA202_1732986485] 34
+[2025.11.20-14.53.49:872][855]LogBlueprintUserMessages: [BP_Coin_Points_C_UAID_60FF9EBA567BBAA102_1845994250] 35
+[2025.11.20-14.53.49:941][857]LogBlueprintUserMessages: [BP_Coin_Points_C_UAID_60FF9EBA567BB8A102_1182421895] 36
+[2025.11.20-14.53.50:035][859]LogBlueprintUserMessages: [BP_Coin_Points_C_UAID_4CD717924AB8FFA202_1687690447] 37
+[2025.11.20-14.53.50:137][862]LogBlueprintUserMessages: [BP_Coin_Points_C_UAID_60FF9EBA567BBAA102_1845677249] 38
+[2025.11.20-14.53.50:202][864]LogBlueprintUserMessages: [BP_Coin_Points_C_UAID_4CD717924AB8FFA202_1716680466] 39
+[2025.11.20-14.53.50:203][864]LogBlueprintUserMessages: [BP_Coin_Points_C_UAID_60FF9EBA567BCAA102_1768720071] 40
+[2025.11.20-14.53.50:203][864]LogBlueprintUserMessages: [BP_Coin_Points_C_UAID_4CD717924AB8FFA202_1716676463] 41
+[2025.11.20-14.53.50:340][868]LogBlueprintUserMessages: [BP_Coin_Points_C_UAID_4CD717924AB8FFA202_1716679465] 42
+[2025.11.20-14.53.51:521][903]LogBlueprintUserMessages: [BP_Coin_Points_C_UAID_60FF9EBA567BCAA102_1751977069] 43
+[2025.11.20-14.53.51:961][912]LogBlueprintUserMessages: [BP_Coin_Points_C_UAID_4CD717924AB8FFA202_1732989488] 44
+[2025.11.20-14.53.52:012][913]LogBlueprintUserMessages: [BP_Coin_Points_C_UAID_4CD717924AB8FFA202_1732971472] 45
+[2025.11.20-14.53.52:121][915]LogBlueprintUserMessages: [BP_Coin_Points_C_UAID_4CD717924AB8FFA202_1732970471] 46
+[2025.11.20-14.53.52:289][918]LogBlueprintUserMessages: [BP_Coin_Points_C_UAID_4CD717924AB8FFA202_1732964467] 47
+[2025.11.20-14.53.52:290][918]LogBlueprintUserMessages: [BP_Coin_Points_C_UAID_60FF9EBA567BCAA102_1966396085] 48
+[2025.11.20-14.53.53:443][950]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.11.20-14.53.53:443][950]LogWorld: BeginTearingDown for /Game/ThirdPerson/UEDPIE_0_Lvl_ThirdPerson
+[2025.11.20-14.53.53:464][950]LogSlate: Window 'Maze_Maw Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6)' being destroyed
+[2025.11.20-14.53.53:500][950]LogWorld: UWorld::CleanupWorld for Lvl_ThirdPerson, bSessionEnded=true, bCleanupResources=true
+[2025.11.20-14.53.53:516][950]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.20-14.53.53:517][950]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/ThirdPerson/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson
+[2025.11.20-14.53.53:545][950]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.11.20-14.53.53:552][950]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.20-14.53.53:605][950]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 2
+[2025.11.20-14.53.53:609][950]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=2, StreamState=4
+[2025.11.20-14.53.53:631][950]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=2, StreamState=2
+[2025.11.20-14.53.53:759][950]LogUObjectHash: Compacting FUObjectHashTables data took   1.58ms
+[2025.11.20-14.53.53:894][951]LogPlayLevel: Display: Destroying online subsystem :Context_2
+[2025.11.20-14.54.06:086][196]LogSlate: Window 'Editor Preferences' being destroyed
+[2025.11.20-14.54.06:127][196]LogSlate: Window 'Editor Preferences' being destroyed
+[2025.11.20-14.54.29:823][  7]LogSlate: Took 0.002119 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2025.11.20-14.54.34:742][ 86]LogStreaming: Display: FlushAsyncLoading(446): 1 QueuedPackages, 0 AsyncPackages
+[2025.11.20-14.54.35:367][ 86]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Interatables/Blueprints/BP_Gatewall.BP_Gatewall_C
+[2025.11.20-14.54.35:368][ 86]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Interatables/Blueprints/BP_Gatewall.BP_Gatewall_C
+[2025.11.20-14.54.35:484][ 86]LogActorFactory: Actor Factory spawned Blueprint /Game/Interatables/Blueprints/BP_Gatewall.BP_Gatewall as actor: BP_Gatewall_C /Game/ThirdPerson/Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.BP_Gatewall_C_0
+[2025.11.20-14.54.35:517][ 86]LogActorFactory: Actor Factory spawned Blueprint /Game/Interatables/Blueprints/BP_Gatewall.BP_Gatewall as actor: BP_Gatewall_C /Game/ThirdPerson/Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.BP_Gatewall_C_0
+[2025.11.20-14.54.35:583][ 86]LogActorFactory: Loading ActorFactory Class /Script/Engine.LevelInstance
+[2025.11.20-14.54.36:959][103]LogUObjectHash: Compacting FUObjectHashTables data took  15.53ms
+[2025.11.20-14.54.37:109][103]LogEditorActor: Deleted 0 Actors (0.399 secs)
+[2025.11.20-14.54.37:144][103]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Interatables/Blueprints/BP_Gatewall.BP_Gatewall_C
+[2025.11.20-14.54.37:144][103]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Interatables/Blueprints/BP_Gatewall.BP_Gatewall_C
+[2025.11.20-14.54.37:297][103]LogActorFactory: Actor Factory spawned Blueprint /Game/Interatables/Blueprints/BP_Gatewall.BP_Gatewall as actor: BP_Gatewall_C /Game/ThirdPerson/Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.BP_Gatewall_C_UAID_60FF9EBA567AFCA302_1580766975
+[2025.11.20-14.54.37:326][103]LogActorFactory: Actor Factory spawned Blueprint /Game/Interatables/Blueprints/BP_Gatewall.BP_Gatewall as actor: BP_Gatewall_C /Game/ThirdPerson/Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.BP_Gatewall_C_UAID_60FF9EBA567AFCA302_1580766975
+[2025.11.20-14.54.38:846][114]LogPSOHitching: Encountered 50 PSO creation hitches so far (33 graphics, 17 compute). 0 of them were precached.
+[2025.11.20-14.54.38:924][116]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_1
+[2025.11.20-14.54.39:148][117]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_2
+[2025.11.20-14.54.41:572][166]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 1409.188965
+[2025.11.20-14.54.41:936][173]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.11.20-14.54.41:936][173]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 1409.504028, Update Interval: 347.268280
+[2025.11.20-14.55.32:790][260]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Interatables/Blueprints/BP_Gatewall.BP_Gatewall
+[2025.11.20-14.55.32:801][260]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_3
+[2025.11.20-14.55.33:512][260]LogStreaming: Display: FlushAsyncLoading(447): 1 QueuedPackages, 0 AsyncPackages
+[2025.11.20-14.55.39:819][260]LogSlate: Took 0.001310 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2025.11.20-14.55.43:135][432]LogShaderCompilers: Display: ================================================
+[2025.11.20-14.55.43:135][432]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2025.11.20-14.55.43:136][432]LogShaderCompilers: Display: Total job queries 424, among them cache hits 33 (7.78%), DDC hits 314 (74.06%), Duplicates 70 (16.51%)
+[2025.11.20-14.55.43:136][432]LogShaderCompilers: Display: Tracking 321 distinct input hashes that result in 232 distinct outputs (72.27%)
+[2025.11.20-14.55.43:136][432]LogShaderCompilers: Display: RAM used: 3.22 MiB of 409.60 MiB budget. Usage: 0.79%
+[2025.11.20-14.55.43:136][432]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2025.11.20-14.55.43:136][432]LogShaderCompilers: Display: Shaders Compiled: 7
+[2025.11.20-14.55.43:136][432]LogShaderCompilers: Display: Jobs assigned 7, completed 7 (100%)
+[2025.11.20-14.55.43:137][432]LogShaderCompilers: Display: Time job spent in pending queue: average 0.08 s, longest 0.10 s
+[2025.11.20-14.55.43:137][432]LogShaderCompilers: Display: Job execution time: average 6.83 s, max 10.07 s
+[2025.11.20-14.55.43:137][432]LogShaderCompilers: Display: Job life time (pending + execution): average 6.90 s, max 10.12
+[2025.11.20-14.55.43:137][432]LogShaderCompilers: Display: Shader code size: total 50.223 KiB, numShaders 7, average 7.174 KiB, min 5.562 KiB, max 7.852 KiB
+[2025.11.20-14.55.43:137][432]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 10.25 s
+[2025.11.20-14.55.43:137][432]LogShaderCompilers: Display: Mutex wait stall in FShaderJobCache::SubmitJobs:  0.05%
+[2025.11.20-14.55.43:137][432]LogShaderCompilers: Display: Jobs were issued in 7 batches (only local compilation was used), average 1.00 jobs/batch
+[2025.11.20-14.55.43:137][432]LogShaderCompilers: Display: Average processing rate: 0.68 jobs/sec
+[2025.11.20-14.55.43:137][432]LogShaderCompilers: Display: Total thread time: 12.628 s
+[2025.11.20-14.55.43:137][432]LogShaderCompilers: Display: Total thread preprocess time: 41.168 s
+[2025.11.20-14.55.43:138][432]LogShaderCompilers: Display: Percentage time preprocessing: 326.00%
+[2025.11.20-14.55.43:138][432]LogShaderCompilers: Display: Effective parallelization: 1.23 (times faster than compiling all shaders on one thread). Compare with number of workers: 8 - 0.154040
+[2025.11.20-14.55.43:138][432]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2025.11.20-14.55.43:138][432]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled    4 times, average 2.01 sec, max 2.04 sec, min 1.97 sec)
+[2025.11.20-14.55.43:138][432]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy (compiled    2 times, average 1.54 sec, max 1.54 sec, min 1.53 sec)
+[2025.11.20-14.55.43:138][432]LogShaderCompilers: Display:                                                  FHitProxyVS (compiled    1 times, average 1.51 sec, max 1.51 sec, min 1.51 sec)
+[2025.11.20-14.55.43:138][432]LogShaderCompilers: Display:                                 FLandscapePhysicalMaterialPS (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2025.11.20-14.55.43:138][432]LogShaderCompilers: Display:                                      FLandscapeGrassWeightPS (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2025.11.20-14.55.43:138][432]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2025.11.20-14.55.43:138][432]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 63.72% of total time (compiled    4 times, average 2.01 sec, max 2.04 sec, min 1.97 sec)
+[2025.11.20-14.55.43:139][432]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 24.32% of total time (compiled    2 times, average 1.54 sec, max 1.54 sec, min 1.53 sec)
+[2025.11.20-14.55.43:139][432]LogShaderCompilers: Display:                                                  FHitProxyVS - 11.96% of total time (compiled    1 times, average 1.51 sec, max 1.51 sec, min 1.51 sec)
+[2025.11.20-14.55.43:139][432]LogShaderCompilers: Display:                                      FLandscapeGrassWeightPS - 0.00% of total time (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2025.11.20-14.55.43:139][432]LogShaderCompilers: Display:                                                 FLumenCardPS - 0.00% of total time (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2025.11.20-14.55.43:139][432]LogShaderCompilers: Display: === Material stats ===
+[2025.11.20-14.55.43:139][432]LogShaderCompilers: Display: Materials Cooked:        0
+[2025.11.20-14.55.43:139][432]LogShaderCompilers: Display: Materials Translated:    143
+[2025.11.20-14.55.43:139][432]LogShaderCompilers: Display: Material Total Translate Time: 0.69 s
+[2025.11.20-14.55.43:139][432]LogShaderCompilers: Display: Material Translation Only: 0.32 s (47%)
+[2025.11.20-14.55.43:139][432]LogShaderCompilers: Display: Material DDC Serialization Only: 0.02 s (3%)
+[2025.11.20-14.55.43:139][432]LogShaderCompilers: Display: Material Cache Hits: 17 (12%)
+[2025.11.20-14.55.43:139][432]LogShaderCompilers: Display: ================================================
+[2025.11.20-14.56.53:526][147]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_4
+[2025.11.20-14.58.48:486][857]LogEditorTransaction: Undo Modify Component Location
+[2025.11.20-14.59.29:999][141]LogUObjectHash: Compacting FUObjectHashTables data took  39.44ms
+[2025.11.20-14.59.30:662][154]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.11.20-14.59.30:845][154]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Interatables/Blueprints/BP_Gatewall] ([2] browsable assets)...
+[2025.11.20-14.59.30:871][154]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Interatables/Blueprints/BP_Gatewall.BP_Gatewall]
+[2025.11.20-14.59.30:871][154]OBJ SavePackage: Finished generating thumbnails for package [/Game/Interatables/Blueprints/BP_Gatewall]
+[2025.11.20-14.59.30:972][154]LogSavePackage: Moving output files for package: /Game/Interatables/Blueprints/BP_Gatewall
+[2025.11.20-14.59.30:975][154]LogSavePackage: Moving '../../../../../../Users/Student/Documents/GitHub/UR-Maze_M/Maze_Maw/Saved/BP_Gatewall013BB1F246E957F052EAC3863ADA75A4.tmp' to '../../../../../../Users/Student/Documents/GitHub/UR-Maze_M/Maze_Maw/Content/Interatables/Blueprints/BP_Gatewall.uasset'
+[2025.11.20-14.59.31:013][154]LogFileHelpers: InternalPromptForCheckoutAndSave took 351.204 ms
+[2025.11.20-14.59.31:145][154]LogContentValidation: Display: Starting to validate 1 assets
+[2025.11.20-14.59.31:145][154]LogContentValidation: Enabled validators:
+[2025.11.20-14.59.31:152][154]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.11.20-14.59.31:152][154]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.11.20-14.59.31:152][154]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.11.20-14.59.31:152][154]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.11.20-14.59.31:152][154]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.11.20-14.59.31:152][154]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.11.20-14.59.31:159][154]AssetCheck: /Game/Interatables/Blueprints/BP_Gatewall Validating asset
+[2025.11.20-14.59.31:201][154]LogSourceControl: Display: Uncontrolled Changelist persistency file saved ../../../../../../Users/Student/Documents/GitHub/UR-Maze_M/Maze_Maw/Saved/SourceControl/UncontrolledChangelists.json
+[2025.11.20-14.59.51:419][613]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.11.20-14.59.51:516][613]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Interatables/Blueprints/BP_Gatewall] ([2] browsable assets)...
+[2025.11.20-14.59.51:516][613]OBJ SavePackage: Finished generating thumbnails for package [/Game/Interatables/Blueprints/BP_Gatewall]
+[2025.11.20-14.59.51:530][613]LogSavePackage: Moving output files for package: /Game/Interatables/Blueprints/BP_Gatewall
+[2025.11.20-14.59.51:531][613]LogSavePackage: Moving '../../../../../../Users/Student/Documents/GitHub/UR-Maze_M/Maze_Maw/Saved/BP_Gatewall3B212DE2414DFFF2D93479A5D6BF7004.tmp' to '../../../../../../Users/Student/Documents/GitHub/UR-Maze_M/Maze_Maw/Content/Interatables/Blueprints/BP_Gatewall.uasset'
+[2025.11.20-14.59.51:551][613]LogFileHelpers: InternalPromptForCheckoutAndSave took 131.572 ms (total: 482.777 ms)
+[2025.11.20-14.59.51:624][613]LogContentValidation: Display: Starting to validate 1 assets
+[2025.11.20-14.59.51:625][613]LogContentValidation: Enabled validators:
+[2025.11.20-14.59.51:625][613]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.11.20-14.59.51:625][613]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.11.20-14.59.51:625][613]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.11.20-14.59.51:625][613]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.11.20-14.59.51:625][613]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.11.20-14.59.51:625][613]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.11.20-14.59.51:625][613]AssetCheck: /Game/Interatables/Blueprints/BP_Gatewall Validating asset
+[2025.11.20-15.00.20:711][772]LogUObjectHash: Compacting FUObjectHashTables data took   4.39ms
+[2025.11.20-15.00.20:739][772]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/E/3H/X05W180QV3YQKMB5UGETHM_Auto1
+[2025.11.20-15.00.20:740][772]LogSavePackage: Moving '../../../../../../Users/Student/Documents/GitHub/UR-Maze_M/Maze_Maw/Saved/X05W180QV3YQKMB5UGETHM_Auto17FAF6A824B85D836C2594D864D065352.tmp' to '../../../../../../Users/Student/Documents/GitHub/UR-Maze_M/Maze_Maw/Saved/Autosaves/Game/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/E/3H/X05W180QV3YQKMB5UGETHM_Auto1.uasset'
+[2025.11.20-15.00.20:744][772]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/ThirdPerson/Lvl_ThirdPerson' took 0.105
+[2025.11.20-15.00.20:744][772]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.105
+[2025.11.20-15.01.00:528][892]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 1788.144775
+[2025.11.20-15.01.01:522][895]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.11.20-15.01.01:523][895]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 1788.809326, Update Interval: 338.081604
+[2025.11.20-15.07.11:915][  6]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 2159.538818
+[2025.11.20-15.07.12:915][  9]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.11.20-15.07.12:915][  9]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 2160.205811, Update Interval: 313.727844
+[2025.11.20-15.12.57:296][ 42]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 2504.917969
+[2025.11.20-15.12.58:295][ 45]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.11.20-15.12.58:295][ 45]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 2505.584717, Update Interval: 350.657684
+[2025.11.20-15.19.25:025][206]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 2892.645752
+[2025.11.20-15.19.26:024][208]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.11.20-15.19.26:025][209]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 2893.310547, Update Interval: 328.488403
+[2025.11.20-15.25.35:748][318]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 3263.369873
+[2025.11.20-15.25.36:749][320]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.11.20-15.25.36:749][320]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 3264.036621, Update Interval: 303.109222
+[2025.11.20-15.31.27:469][372]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 3615.093018
+[2025.11.20-15.31.28:469][375]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.11.20-15.31.28:469][375]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 3615.760010, Update Interval: 306.251404
+[2025.11.20-15.32.09:359][527]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.11.20-15.32.09:694][527]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Interatables/Blueprints/BP_Gatewall] ([2] browsable assets)...
+[2025.11.20-15.32.09:696][527]OBJ SavePackage: Finished generating thumbnails for package [/Game/Interatables/Blueprints/BP_Gatewall]
+[2025.11.20-15.32.09:991][527]LogSavePackage: Moving output files for package: /Game/Interatables/Blueprints/BP_Gatewall
+[2025.11.20-15.32.09:995][527]LogSavePackage: Moving '../../../../../../Users/Student/Documents/GitHub/UR-Maze_M/Maze_Maw/Saved/BP_Gatewall5C2A32E948268ED20401A1963FFEBC7B.tmp' to '../../../../../../Users/Student/Documents/GitHub/UR-Maze_M/Maze_Maw/Content/Interatables/Blueprints/BP_Gatewall.uasset'
+[2025.11.20-15.32.10:059][527]LogFileHelpers: InternalPromptForCheckoutAndSave took 700.307 ms (total: 1.18 sec)
+[2025.11.20-15.32.10:256][527]LogContentValidation: Display: Starting to validate 1 assets
+[2025.11.20-15.32.10:258][527]LogContentValidation: Enabled validators:
+[2025.11.20-15.32.10:258][527]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.11.20-15.32.10:259][527]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.11.20-15.32.10:259][527]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.11.20-15.32.10:260][527]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.11.20-15.32.10:260][527]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.11.20-15.32.10:261][527]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.11.20-15.32.10:272][527]AssetCheck: /Game/Interatables/Blueprints/BP_Gatewall Validating asset
+[2025.11.20-15.32.18:526][755]LogDerivedDataCache: C:/Users/Student/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.006 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
+[2025.11.20-15.37.24:232][817]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 3971.838135
+[2025.11.20-15.37.24:446][823]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.11.20-15.37.24:446][823]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 3972.033691, Update Interval: 357.117828
+[2025.11.20-15.44.10:561][ 79]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 4378.185059
+[2025.11.20-15.44.10:796][ 87]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.11.20-15.44.10:796][ 88]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 4378.391602, Update Interval: 346.310608
+[2025.11.20-15.50.36:669][999]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 4764.293457
+[2025.11.20-15.50.37:670][  2]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.11.20-15.50.37:670][  2]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 4764.960938, Update Interval: 304.109009
+[2025.11.20-15.56.12:373][192]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 5099.981934
+[2025.11.20-15.56.12:619][206]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.11.20-15.56.12:619][206]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 5100.215332, Update Interval: 351.695923
+[2025.11.20-16.02.50:649][363]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 5498.266113
+[2025.11.20-16.02.51:631][365]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.11.20-16.02.51:632][365]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 5498.925781, Update Interval: 352.609650
+[2025.11.20-16.09.40:377][592]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 5907.994141
+[2025.11.20-16.09.41:364][594]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.11.20-16.09.41:365][594]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 5908.659180, Update Interval: 350.163269
+[2025.11.20-16.16.05:774][748]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 6293.378906
+[2025.11.20-16.16.06:761][750]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.11.20-16.16.06:761][750]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 6294.043457, Update Interval: 312.076172
+[2025.11.20-16.22.11:166][844]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 6658.774414
+[2025.11.20-16.22.12:155][846]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.11.20-16.22.12:156][846]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 6659.442383, Update Interval: 303.885620
+[2025.11.20-16.27.58:902][887]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 7006.510254
+[2025.11.20-16.27.59:887][889]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.11.20-16.27.59:888][889]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 7007.174805, Update Interval: 355.171356
+[2025.11.20-16.32.18:540][665]LogDerivedDataCache: C:/Users/Student/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.012 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
+[2025.11.20-16.34.35:633][559]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 7403.246582
+[2025.11.20-16.34.35:777][566]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.11.20-16.34.35:778][566]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 7403.376465, Update Interval: 324.734650
+[2025.11.20-16.40.35:780][  2]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 7763.382812
+[2025.11.20-16.40.36:771][  4]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.11.20-16.40.36:772][  5]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 7764.044922, Update Interval: 330.271912
+[2025.11.20-16.47.04:835][168]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 8152.449219
+[2025.11.20-16.47.05:836][171]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.11.20-16.47.05:838][172]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 8153.117188, Update Interval: 322.020935
+[2025.11.20-16.53.02:217][240]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 8509.832031
+[2025.11.20-16.53.03:223][243]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.11.20-16.53.03:223][244]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 8510.505859, Update Interval: 326.159241
+[2025.11.20-16.59.25:948][391]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 8893.574219
+[2025.11.20-16.59.26:952][394]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.11.20-16.59.26:958][395]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 8894.242188, Update Interval: 359.571533
+[2025.11.20-17.03.23:653][104]LogAudioMixer: Display: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=Speaker (Realtek(R) Audio), InstanceID=1
+[2025.11.20-17.03.23:655][104]LogAudioMixer: Display: Attempt to swap audio render device to new device: '{0.0.0.00000000}.{23cda2e1-c329-48ec-a718-ba9761253c10}', because: 'FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged', force=1
+[2025.11.20-17.03.23:796][105]LogAudioMixer: Warning: FMixerPlatformXAudio2::OnCriticalError: 0x88880001: UNKNOWN
+[2025.11.20-17.03.23:981][105]LogAudioMixer: Display: FMixerPlatformXAudio2::PreDeviceSwap - Starting swap to [{0.0.0.00000000}.{23cda2e1-c329-48ec-a718-ba9761253c10}]
+[2025.11.20-17.03.23:982][105]LogAudioMixer: Display: FMixerPlatformXAudio2::EnqueueAsyncDeviceSwap - enqueuing async device swap
+[2025.11.20-17.03.23:983][105]LogAudioMixer: Display: FMixerPlatformXAudio2::PerformDeviceSwap - AsyncTask Start. Because=FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged
+[2025.11.20-17.03.25:340][109]LogAudioMixer: Display: FMixerPlatformXAudio2::PostDeviceSwap - successful Swap new Device is (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{23cda2e1-c329-48ec-a718-ba9761253c10}, Name=Speaker (Realtek(R) Audio)), Reason=FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged, InstanceID=1, DurationMS=1081.18
+[2025.11.20-17.03.25:344][109]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=1
+[2025.11.20-17.03.25:344][109]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2025.11.20-17.03.25:353][109]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
