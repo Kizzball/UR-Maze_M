@@ -4383,3 +4383,6 @@ LogConfig: Set CVar [[r.VRS.ContrastAdaptiveShading:1]]
 [2025.11.25-16.16.20:700][908]LogPython: Display: Object '/ControlRig/Python/ControlRigWorkflows/workflow_fbik_import_ik_rig_PY.import_ik_rig_options' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
 [2025.11.25-16.16.20:700][908]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/add_controls_for_selected_PY.ControlOutputFormat' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
 [2025.11.25-16.16.23:248][908]LogEditorDataStorage: Deinitializing
+[2025.11.25-16.16.26:615][908]LogDemo: Cleaned up 0 splitscreen connections, owner deletion: enabled
+[2025.11.25-16.16.27:803][908]LogExit: Editor shut down
+[2025.11.25-16.16.27:950][908]LogExit: Transaction tracking system shut down
